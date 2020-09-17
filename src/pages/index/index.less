@@ -1,0 +1,115 @@
+.notice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 46px;
+  font-size: 12px;
+  padding-right: 22px;
+  img {
+    width: 18px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}
+
+.dataChange {
+  padding: 24px;
+}
+
+.rangeCard {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-bottom: 16px;
+  li {
+    flex: 1;
+    margin-right: 16px;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 3px 7px 0 #dedfe9;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 100px;
+    color: #333;
+    div:nth-of-type(1) {
+      height: 12px;
+      background: #e10909;
+    }
+    div:nth-of-type(2) {
+      font-size: 28px;
+      line-height: 50px;
+      font-weight: bold;
+    }
+    div:nth-of-type(3) {
+      line-height: 20px;
+      font-weight: bold;
+    }
+  }
+  li:nth-last-of-type(1) {
+    margin-right: 0;
+  }
+}
+
+.filterSearch {
+  padding: 22px 24px;
+  .filter {
+    display: flex;
+    .filterCont {
+      flex: 1;
+      margin-right: 93px;
+      display: flex;
+      .filterTool {
+        flex: 1;
+      }
+    }
+    .filterCont > span {
+      width: 80px;
+      line-height: 32px;
+    }
+    .filterCont:nth-last-of-type(1) {
+      margin-right: 0;
+    }
+  }
+  .search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.tableResult {
+  padding: 20px 24px;
+  padding-bottom: 0;
+  .tableTop {
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 18px;
+  }
+  .time {
+    font-size: 12px;
+  }
+  .tool {
+    display: flex;
+    .total {
+      font-size: 12px;
+    }
+    .downland {
+      margin-left: 24px;
+      font-size: 12px;
+      color: #278cff;
+      cursor: pointer;
+      img {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        position: relative;
+        bottom: 2px;
+      }
+    }
+  }
+  .tableHandle {
+    cursor: pointer;
+  }
+}
